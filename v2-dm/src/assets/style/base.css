@@ -1,0 +1,65 @@
+/* CSS清除默认样式 */
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Arial, "Microsoft YaHei", "Microsoft Sans Serif", "Microsoft SanSerf", sans-serif;
+  color: #333;
+  height: 100%;
+  overflow-x: hidden;
+  min-width: 1440px;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.4rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:visited {
+  color: #333;
+}
+a:hover {
+  color: #00A1D6;
+}
+ul,
+ol {
+  list-style: none;
+}
